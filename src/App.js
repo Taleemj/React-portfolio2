@@ -1,24 +1,67 @@
-import logo from './logo.svg';
-import './App.css';
+import { useEffect } from "react";
+import styles from "./styles/Home.module.scss";
+import {
+  Header,
+  Services,
+  Projects,
+  Skills,
+  Aboutme,
+  Contact,
+} from "./components";
+import { AiOutlineHeart } from "react-icons/ai";
+import { SiUpwork } from "react-icons/si";
+import { BsFacebook, BsLinkedin } from "react-icons/bs";
+import { FaGithub } from "react-icons/fa";
+import 'animate.css'
+import WOW from 'wow.js'
 
 function App() {
+  useEffect(()=>{
+    new WOW().init();
+  }, [])
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <div className={styles.container}>
+        <Header />
+        <Services />
+        <Projects />
+        <Skills />
+        <Aboutme />
+        <Contact />
+        <footer className={styles.footer}>
+          <div className={styles.icons}>
+            <a
+              href="https://linkedin.com/in/taleem-mankuer-713367235"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <BsLinkedin />
+            </a>
+            <a
+              href="https://github.com/Taleemj"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FaGithub />
+            </a>
+            <a
+              href="https://web.facebook.com/taleem22"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <BsFacebook />
+            </a>
+            <a href="/" target="_blank" rel="noreferrer">
+              <SiUpwork />
+            </a>
+          </div>
+          <h4>
+            Made & designed with <AiOutlineHeart /> By <span>Taleem</span>2022
+          </h4>
+        </footer>
+      </div>
+    </>
   );
 }
 
