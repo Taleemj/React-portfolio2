@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { AiOutlineMenu } from "react-icons/ai";
-import { SiUpwork } from "react-icons/si";
 import { BsFacebook, BsLinkedin } from "react-icons/bs";
 import { FaGithub, FaTimes } from "react-icons/fa";
 import styles from "./Navbar.module.scss";
@@ -13,7 +12,7 @@ const Navbar = () => {
       <div className={styles.logo}>
         <a href="#__next">
           {/* <Image src={logo} alt="TM" width="60px" height="60px" /> */}
-          <img src={logo} alt="TM" width="60px" height="60px"  srcset="" />
+          <img src={logo} alt="TM" width="60px" height="60px" srcset="" />
         </a>
       </div>
       <div className={styles.linkcontainer}>
@@ -48,9 +47,6 @@ const Navbar = () => {
             rel="noreferrer"
           >
             <BsFacebook />
-          </a>
-          <a href="/">
-            <SiUpwork />
           </a>
         </div>
       </div>
@@ -114,9 +110,6 @@ const Navbar = () => {
             rel="noreferrer"
           >
             <BsFacebook />
-          </a>
-          <a href="/" target="_blank" rel="noreferrer">
-            <SiUpwork />
           </a>
         </div>
       </div>

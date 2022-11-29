@@ -9,16 +9,15 @@ import {
   Contact,
 } from "./components";
 import { AiOutlineHeart } from "react-icons/ai";
-import { SiUpwork } from "react-icons/si";
 import { BsFacebook, BsLinkedin } from "react-icons/bs";
 import { FaGithub } from "react-icons/fa";
-import 'animate.css'
-import WOW from 'wow.js'
+import "animate.css";
+import WOW from "wow.js";
 
 function App() {
-  useEffect(()=>{
+  useEffect(() => {
     new WOW().init();
-  }, [])
+  }, []);
 
   return (
     <>
@@ -51,9 +50,6 @@ function App() {
               rel="noreferrer"
             >
               <BsFacebook />
-            </a>
-            <a href="/" target="_blank" rel="noreferrer">
-              <SiUpwork />
             </a>
           </div>
           <h4>

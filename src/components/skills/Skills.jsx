@@ -5,14 +5,15 @@ import { DiGit } from "react-icons/di";
 import AnimatedLetters from "../Animated/AnimatedLetters";
 
 const Skills = () => {
-  const titlearr = ['T','e','c','h','n','o','l','o','g','i','e','s']
+  const titlearr = ["T", "e", "c", "h", "n", "o", "l", "o", "g", "i", "e", "s"];
   return (
     <div id="skills" className={styles.skills}>
       <h1 className="wow animate__animated animate__fadeInUp">
         <AnimatedLetters wordArray={titlearr} idx={3} />
       </h1>
       <p className="wow animate__animated animate__fadeInUp">
-        I&apos;ve worked with a wide range of<span>web development</span>
+        I&apos;ve worked with a wide range of
+        <span>web & mobile development</span>
         Technologies.From frontend and design to backend.
       </p>
       <div className={styles.skillscontainer}>
@@ -32,12 +33,10 @@ const Skills = () => {
           className={`wow animate__animated animate__fadeInUp ${styles.backend}`}
         >
           <FaNodeJs />
-          <h4>Backend</h4>
-          <p>Learning</p>
+          <h4>App Development</h4>
+          <p>Working with</p>
           <ul>
-            <li>Node Js</li>
-            <li>Express</li>
-            <li>MongoDB</li>
+            <li>React Native</li>
           </ul>
         </div>
         <div

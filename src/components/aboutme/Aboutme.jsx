@@ -1,10 +1,11 @@
 import React from "react";
 import styles from "./Aboutme.module.scss";
 import AnimatedLetters from "../Animated/AnimatedLetters";
-import codinggif from '../../assets/coding.gif'
+import codinggif from "../../assets/coding.gif";
+import TaleemCV from "../../assets/TaleemCV.pdf";
 
 const Aboutme = () => {
-  const titlearr = ['A','b','o','u','t',' ','M','e']
+  const titlearr = ["A", "b", "o", "u", "t", " ", "M", "e"];
   return (
     <div id="aboutme" className={styles.about}>
       <h1 className="wow animate__animated animate__fadeInUp">
@@ -29,13 +30,8 @@ const Aboutme = () => {
             <span style={{ color: "#29b9f0ff" }}> opportunities</span>. I build
             websites that delight and inform and try give it my all.
           </p>
-          <a href="#aboutme">
-            <button
-              onClick={() =>
-                alert("sorry my cv isn't available at the moment.")
-              }
-              className="wow animate__animated animate__fadeInUp"
-            >
+          <a href={TaleemCV} target="_blank">
+            <button className="wow animate__animated animate__fadeInUp">
               Download CV
             </button>
           </a>
@@ -43,7 +39,14 @@ const Aboutme = () => {
         <div
           className={`wow animate__animated animate__fadeInUp ${styles.gif}`}
         >
-          <img src={codinggif} alt="" width="400px" height="300px" srcset="" />
+          <img
+            src={codinggif}
+            alt=""
+            loading="lazy"
+            width="400px"
+            height="300px"
+            srcset=""
+          />
         </div>
       </div>
     </div>

@@ -11,6 +11,17 @@ export const works = [
     category: "reactapis",
   },
   {
+    id: 11,
+    title: "Urban Dictionary",
+    description:
+      "Is is an urban diciotnary webapp that use's rapid api's urban dictionary api to fetch word definitions, authors amount of likes and dislikes.",
+    tag: ["Reactjs", "SCSS"],
+    codeLink: "https://github.com/Taleemj/urban-dictionary-T",
+    demoLink: "https://urbandictionary.netlify.app",
+    img: "urbandictionary.png",
+    category: "reactapis",
+  },
+  {
     id: 9,
     title: "Obsan Dental",
     description:
