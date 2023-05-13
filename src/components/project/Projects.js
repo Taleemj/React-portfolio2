@@ -29,7 +29,7 @@ export const works = [
     tag: ["HTML", "CSS", "Javascript", "API"],
     demoLink: "https://obsandentalclinic.com",
     img: "obsandental.png",
-    category: "work",
+    category: "htmlcss",
   },
   {
     id: 10,

@@ -11,8 +11,7 @@ const Projects = () => {
   const work = works.filter((item) => item.category === "work");
   const fullstack = works.filter((item) => item.category === "fullstack");
   const [filtered, setfiltered] = useState([...works]);
-  const titlearr = ['M','y','','P','r','o','j','e','c','t','s']
-
+  const titlearr = ["M", "y", "", "P", "r", "o", "j", "e", "c", "t", "s"];
 
   return (
     <div id="projects" className={styles.projectscontainer}>
@@ -26,7 +25,7 @@ const Projects = () => {
         <button onClick={() => setfiltered(htmlcss)}>HTML/CSS</button>
         <button onClick={() => setfiltered(reactapis)}>REACT/APIS</button>
         <button onClick={() => setfiltered(fullstack)}>FULLSTACK</button>
-        <button onClick={() => setfiltered(work)}>WORK</button>
+        {/* <button onClick={() => setfiltered(work)}>WORK</button> */}
       </div>
       <div className={styles.Projects}>
         {filtered.map((item) => (

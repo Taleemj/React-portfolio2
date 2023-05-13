@@ -23,7 +23,7 @@ function App() {
     <>
       <div className={styles.container}>
         <Header />
-        <Services />
+        {/* <Services /> */}
         <Projects />
         <Skills />
         <Aboutme />
