@@ -1,4 +1,13 @@
 @import url("animate.css");
+@font-face {
+  font-family: "Roboto";
+  src: url("../assets/fonts/Roboto\ Light\ V2.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Coolvetica";
+  src: url("../assets/fonts/CoolveticaRg-Regular.woff2") format("woff2");
+}
 
 * {
   padding: 0;
@@ -7,8 +16,8 @@
   font-family: "Roboto";
   scroll-behavior: smooth;
 }
-span{
-  font-family: 'Coolvetica';
+span {
+  font-family: "Coolvetica";
 }
 p {
   font-size: 18px;
@@ -21,15 +30,3 @@ h5,
 h6 {
   font-family: "Coolvetica";
 }
-
-@font-face {
-  font-family: "Roboto";
-  src: url("../assets/fonts/Roboto\ Light\ V2.woff2") format("woff2");
-}
-
-@font-face {
-  font-family: "Coolvetica";
-  src: url("../assets/fonts/CoolveticaRg-Regular.woff2") format("woff2");
-}
-
-

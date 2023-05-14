@@ -21,11 +21,12 @@ const Skills = () => {
           className={`wow animate__animated animate__fadeInUp ${styles.frontend}`}
         >
           <FaReact />
-          <h4>Frontend</h4>
+          <h4>Web Development</h4>
           <p>Experinced with</p>
           <ul>
             <li>React & Next Js</li>
-            <li>Html/Css/Sass</li>
+            <li>Html / Css / Sass</li>
+            <li>Node / Express Js</li>
             <li>Bootstrap & Tailwind</li>
           </ul>
         </div>
