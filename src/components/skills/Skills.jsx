@@ -20,9 +20,9 @@ const Skills = () => {
         <div
           className={`wow animate__animated animate__fadeInUp ${styles.frontend}`}
         >
-          <FaReact />
+          <FaNodeJs />
           <h4>Web Development</h4>
-          <p>Experinced with</p>
+          <p>Experienced with</p>
           <ul>
             <li>React & Next Js</li>
             <li>Html / Css / Sass</li>
@@ -33,7 +33,7 @@ const Skills = () => {
         <div
           className={`wow animate__animated animate__fadeInUp ${styles.backend}`}
         >
-          <FaNodeJs />
+          <FaReact />
           <h4>App Development</h4>
           <p>Working with</p>
           <ul>
