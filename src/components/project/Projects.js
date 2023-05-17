@@ -1,5 +1,16 @@
 export const works = [
   {
+    id: 13,
+    title: "Chatgpt Clone",
+    description:
+      "An AI chatbot build on the OpenAi api that takes in messages and provide relevant response to the said message.",
+    tag: ["HTML", "CSS", "Javascript", "Express", "API"],
+    codeLink: "https://github.com/Taleemj/An-Ai-chatbot",
+    demoLink: "https://coolerchatgpt.vercel.app",
+    img: "chatbot.png",
+    category: "fullstack",
+  },
+  {
     id: 1,
     title: "CryptoPlanet",
     description:
@@ -20,6 +31,17 @@ export const works = [
     demoLink: "https://urbandictionary.netlify.app",
     img: "urbandictionary.png",
     category: "reactapis",
+  },
+  {
+    id: 12,
+    title: "Developer Blog",
+    description:
+      "The developer blog is a platform dedicated to sharing knowledge, experience, and insights on programming and technology-related topics. It aims to provide valuable information and resources to fellow developers, beginners, and enthusiasts alike.",
+    tag: ["Next Js", "SCSS", "Sanity.io", "API"],
+    codeLink: "https://github.com/Taleemj/Myblog",
+    demoLink: "https://thedeveloperblog.vercel.app/",
+    img: "blog.png",
+    category: "fullstack",
   },
   {
     id: 9,
