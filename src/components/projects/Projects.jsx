@@ -8,7 +8,6 @@ import AnimatedLetters from "../Animated/AnimatedLetters";
 const Projects = () => {
   const htmlcss = works.filter((item) => item.category === "htmlcss");
   const reactapis = works.filter((item) => item.category === "reactapis");
-  const work = works.filter((item) => item.category === "work");
   const fullstack = works.filter((item) => item.category === "fullstack");
   const [filtered, setfiltered] = useState([...works]);
   const titlearr = ["M", "y", "", "P", "r", "o", "j", "e", "c", "t", "s"];
@@ -22,10 +21,9 @@ const Projects = () => {
         className={`wow animate__animated animate__fadeInUp delay-1s ${styles.filters}`}
       >
         <button onClick={() => setfiltered(works)}>ALL</button>
-        <button onClick={() => setfiltered(htmlcss)}>HTML/CSS</button>
-        <button onClick={() => setfiltered(reactapis)}>REACT/APIS</button>
+        <button onClick={() => setfiltered(htmlcss)}>WEB PAGES</button>
+        <button onClick={() => setfiltered(reactapis)}>WEB APPS</button>
         <button onClick={() => setfiltered(fullstack)}>FULLSTACK</button>
-        {/* <button onClick={() => setfiltered(work)}>WORK</button> */}
       </div>
       <div className={styles.Projects}>
         {filtered.map((item) => (
