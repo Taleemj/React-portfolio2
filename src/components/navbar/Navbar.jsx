@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { AiOutlineMenu } from "react-icons/ai";
-import { BsFacebook, BsLinkedin } from "react-icons/bs";
+import { BsLinkedin } from "react-icons/bs";
 import { FaGithub, FaTimes } from "react-icons/fa";
 import styles from "./Navbar.module.scss";
 import logo from "../../assets/tm.png";
@@ -24,6 +24,15 @@ const Navbar = () => {
             <a href="#skills">Technologies</a>
           </li>
           <li>
+            <a
+              href="https://thedeveloperblog.vercel.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Blog
+            </a>
+          </li>
+          <li>
             <a href="#aboutme">About Me</a>
           </li>
           <li>
@@ -41,13 +50,6 @@ const Navbar = () => {
           <a href="https://github.com/Taleemj" target="_blank" rel="noreferrer">
             <FaGithub />
           </a>
-          <a
-            href="https://web.facebook.com/taleem22"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <BsFacebook />
-          </a>
         </div>
       </div>
 
@@ -60,13 +62,6 @@ const Navbar = () => {
         </div>
         <div className={styles.logo}>
           <a href="#__next">
-            {/* <Image
-              src={logo}
-              alt="TM"
-              onClick={() => setMenuOpen(false)}
-              width="60px"
-              height="60px"
-            /> */}
             <img
               src={logo}
               alt="TM"
@@ -87,6 +82,15 @@ const Navbar = () => {
             <a href="#skills">Technologies</a>
           </li>
           <li>
+            <a
+              href="https://thedeveloperblog.vercel.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Blog
+            </a>
+          </li>
+          <li>
             <a href="#aboutme">About Me</a>
           </li>
           <li>
@@ -103,13 +107,6 @@ const Navbar = () => {
           </a>
           <a href="https://github.com/Taleemj" target="_blank" rel="noreferrer">
             <FaGithub />
-          </a>
-          <a
-            href="https://web.facebook.com/taleem22"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <BsFacebook />
           </a>
         </div>
       </div>

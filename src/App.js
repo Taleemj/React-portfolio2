@@ -1,15 +1,8 @@
 import { useEffect } from "react";
 import styles from "./styles/Home.module.scss";
-import {
-  Header,
-  Services,
-  Projects,
-  Skills,
-  Aboutme,
-  Contact,
-} from "./components";
+import { Header, Projects, Skills, Aboutme, Contact } from "./components";
 import { AiOutlineHeart } from "react-icons/ai";
-import { BsFacebook, BsLinkedin } from "react-icons/bs";
+import { BsLinkedin } from "react-icons/bs";
 import { FaGithub } from "react-icons/fa";
 import "animate.css";
 import WOW from "wow.js";
@@ -23,7 +16,6 @@ function App() {
     <>
       <div className={styles.container}>
         <Header />
-        {/* <Services /> */}
         <Projects />
         <Skills />
         <Aboutme />
@@ -43,13 +35,6 @@ function App() {
               rel="noreferrer"
             >
               <FaGithub />
-            </a>
-            <a
-              href="https://web.facebook.com/taleem22"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <BsFacebook />
             </a>
           </div>
           <h4>
