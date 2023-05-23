@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { AiOutlineMenu } from "react-icons/ai";
 import { BsLinkedin } from "react-icons/bs";
 import { FaGithub, FaTimes } from "react-icons/fa";
@@ -7,8 +7,24 @@ import logo from "../../assets/tm.png";
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
+  const [scrollTop, setScrollTop] = useState(0);
+  const [navClass, setNavClass] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = (event) => {
+      setScrollTop(document.documentElement.scrollTop);
+      scrollTop > 400 ? setNavClass(true) : setNavClass(false);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, [scrollTop]);
+
   return (
-    <div className={styles.navcontainer}>
+    <div className={navClass ? styles.navbar : styles.navcontainer}>
       <div className={styles.logo}>
         <a href="#__next">
           {/* <Image src={logo} alt="TM" width="60px" height="60px" /> */}
