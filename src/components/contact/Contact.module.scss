@@ -1,7 +1,8 @@
 .contactme {
   width: 75%;
-  margin: 180px auto;
+  margin: 20px auto 80px;
   display: flex;
+  padding: 90px 0 0 0;
   align-items: center;
   justify-content: space-between;
   .info {
@@ -65,7 +66,7 @@
             width: 225px;
             height: 50px;
             border: none;
-            background-color:  rgb(41, 41, 41);
+            background-color: rgb(41, 41, 41);
             color: #fff;
             &:focus {
               border-bottom: 2px solid #29b9f0ff;
@@ -88,7 +89,7 @@
       }
       textarea {
         margin-bottom: 5px;
-        background-color:  rgb(41, 41, 41);
+        background-color: rgb(41, 41, 41);
         // box-shadow: 0 0 20px #000;
         outline: none;
         border: none;
@@ -124,7 +125,7 @@
     background-color: transparent;
     height: 600px;
     background-color: #29b9f0ff;
-    iframe{
+    iframe {
       border: none;
     }
   }
