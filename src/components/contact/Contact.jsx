@@ -4,6 +4,8 @@ import { AiOutlineMail } from "react-icons/ai";
 import { BsPhone } from "react-icons/bs";
 import AnimatedLetters from "../Animated/AnimatedLetters";
 import emailjs from "@emailjs/browser";
+// import GlobeComponent from "../Globe/Globe";
+import CustomGlobe from "../Globe/Globe";
 
 const Contact = () => {
   const nameref = useRef();
@@ -91,7 +93,9 @@ const Contact = () => {
         </form>
       </div>
       <div id="map" className={`${styles.mapcontainer}`}>
-        <div
+        {/* <GlobeComponent /> */}
+        <CustomGlobe />
+        {/* <div
           className={"wow animate__animated animate__backInRight "}
           style={{ width: "100%", height: "100%" }}
         >
@@ -104,7 +108,7 @@ const Contact = () => {
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
           ></iframe>
-        </div>
+        </div> */}
       </div>
     </div>
   );
