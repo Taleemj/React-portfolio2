@@ -92,23 +92,11 @@ const Contact = () => {
           <button type="submit">Send Message</button>
         </form>
       </div>
-      <div id="map" className={`${styles.mapcontainer}`}>
-        {/* <GlobeComponent /> */}
+      <div
+        id="map"
+        className={`wow animate__animated animate__fadeInUp ${styles.mapcontainer}`}
+      >
         <CustomGlobe />
-        {/* <div
-          className={"wow animate__animated animate__backInRight "}
-          style={{ width: "100%", height: "100%" }}
-        >
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d549.1210962570213!2d32.62982575988001!3d0.26886817726967643!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x177dbe753d5ebf8d%3A0x702b8adf1fc325ec!2sKAWUKU%20GREEN%20APARTMENT!5e0!3m2!1sen!2sug!4v1661597087276!5m2!1sen!2sug"
-            width="100%"
-            height="100%"
-            allowFullScreen=""
-            title="Mymap"
-            loading="lazy"
-            referrerPolicy="no-referrer-when-downgrade"
-          ></iframe>
-        </div> */}
       </div>
     </div>
   );

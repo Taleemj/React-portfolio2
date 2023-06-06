@@ -45,7 +45,6 @@ const Aboutme = () => {
             loading="lazy"
             width="400px"
             height="300px"
-            srcset=""
           />
         </div>
       </div>

@@ -27,8 +27,7 @@ const Navbar = () => {
     <div className={navClass ? styles.navbar : styles.navcontainer}>
       <div className={styles.logo}>
         <a href="#__next">
-          {/* <Image src={logo} alt="TM" width="60px" height="60px" /> */}
-          <img src={logo} alt="TM" width="60px" height="60px" srcset="" />
+          <img src={logo} alt="TM" width="60px" height="60px" />
         </a>
       </div>
       <div className={styles.linkcontainer}>
@@ -84,7 +83,6 @@ const Navbar = () => {
               onClick={() => setMenuOpen(false)}
               width="60px"
               height="60px"
-              srcset=""
             />
             <h5>Taleem</h5>
             <h6>Web Developer</h6>
