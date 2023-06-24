@@ -38,7 +38,8 @@ function App() {
             </a>
           </div>
           <h4>
-            Made & designed with <AiOutlineHeart /> By <span>Taleem</span>2022
+            Made & designed with <AiOutlineHeart /> By <span>Taleem</span>
+            {new Date().getFullYear()}
           </h4>
         </footer>
       </div>
