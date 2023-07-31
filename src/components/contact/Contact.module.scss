@@ -171,7 +171,8 @@
     }
     .mapcontainer {
       width: 100%;
-      height: 450px;
+      display: none;
+      height: 200px;
       div {
         .scene-container {
           height: 100%;
