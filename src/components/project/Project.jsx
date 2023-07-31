@@ -7,14 +7,7 @@ const Project = ({ title, description, codeLink, demoLink, img, tag }) => {
       className={`wow animate__animated animate__fadeInUp ${styles.singleProject}`}
     >
       <div className={styles.img}>
-        {/* <Image src={`/${img}`} alt={title} width="300px" height="200px" /> */}
-        <img
-          src={`/${img}`}
-          width="300px"
-          height="200px"
-          loading="lazy"
-          alt={title}
-        />
+        <img src={`/${img}`} loading="lazy" alt={title} />
       </div>
       <h4>{title}</h4>
       <p>{description}</p>
