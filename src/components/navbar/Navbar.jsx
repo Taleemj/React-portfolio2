@@ -26,7 +26,7 @@ const Navbar = () => {
   return (
     <div className={navClass ? styles.navbar : styles.navcontainer}>
       <div className={styles.logo}>
-        <a href="#__next">
+        <a href="#hero">
           <img src={logo} alt="TM" width="60px" height="60px" />
         </a>
       </div>
@@ -76,7 +76,7 @@ const Navbar = () => {
           <FaTimes />
         </div>
         <div className={styles.logo}>
-          <a href="#__next">
+          <a href="#hero">
             <img
               src={logo}
               alt="TM"

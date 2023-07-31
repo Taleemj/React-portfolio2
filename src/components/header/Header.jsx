@@ -40,7 +40,7 @@ const Header = () => {
   return (
     <>
       <Navbar />
-      <div id="header" className={styles.headercontainer}>
+      <div id="hero" className={styles.headercontainer}>
         <div className={styles.hero}>
           <div className={`${styles.herotext}`}>
             <strong>
