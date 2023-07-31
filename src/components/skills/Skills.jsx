@@ -25,19 +25,20 @@ const Skills = () => {
           <p>Experienced with</p>
           <ul>
             <li>React & Next Js</li>
-            <li>Html / Css / Sass</li>
-            <li>Node / Express Js</li>
-            <li>Bootstrap & Tailwind</li>
+            <li>Html / Css / Scss</li>
+            <li>JavaScript / TypeScript</li>
           </ul>
         </div>
         <div
           className={`wow animate__animated animate__fadeInUp ${styles.backend}`}
         >
           <FaReact />
-          <h4>App Development</h4>
+          <h4>Learning</h4>
           <p>Working with</p>
           <ul>
             <li>React Native</li>
+            <li>Node / Express Js</li>
+            <li>Tailwind Css</li>
           </ul>
         </div>
         <div
