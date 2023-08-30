@@ -26,7 +26,7 @@ const Skills = () => {
           <ul>
             <li>React & Next Js</li>
             <li>Html / Css / Scss</li>
-            <li>JavaScript / TypeScript</li>
+            <li>JavaScript</li>
           </ul>
         </div>
         <div
