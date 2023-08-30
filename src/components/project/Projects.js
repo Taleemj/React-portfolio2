@@ -1,5 +1,27 @@
 export const works = [
   {
+    id: 15,
+    title: "MovieHub DB (MHDB)",
+    description:
+      "MovieHub (MHDB) is a database for movies and TV shows. Where you can discover and learn more about movies, TV shows and tv stars.",
+    tag: ["NextJs", "SCSS", "Api"],
+    codeLink: "https://github.com/Taleemj/Moviehub2.0",
+    demoLink: "https://moviehubdb.vercel.app/",
+    img: "mhdb.png",
+    category: "reactapis",
+  },
+  {
+    id: 14,
+    title: "The store (Amazon Clone)",
+    description:
+      "The store is an ecommerce web app that allows user to sign in using nextAuth and handle payment processing using stripe and store user info such as cart items and orders using firebase.",
+    tag: ["NextJs", "Tailwind", "Firebase", "Stripe"],
+    codeLink: "https://github.com/Taleemj/fullstack-eCommerce-store",
+    demoLink: "https://amazonstoretoo.vercel.app/",
+    img: "thestore.png",
+    category: "fullstack",
+  },
+  {
     id: 13,
     title: "Chatgpt Clone",
     description:
