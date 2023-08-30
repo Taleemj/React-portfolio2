@@ -34,11 +34,11 @@ const Skills = () => {
         >
           <FaReact />
           <h4>Learning</h4>
-          <p>Working with</p>
+          <p>Interested in</p>
           <ul>
             <li>React Native</li>
+            <li>Flutter</li>
             <li>Node / Express Js</li>
-            <li>Tailwind Css</li>
           </ul>
         </div>
         <div
@@ -48,9 +48,9 @@ const Skills = () => {
           <h4>Tools</h4>
           <p>Worked with</p>
           <ul>
-            <li>Netlify</li>
+            <li>Netlify / Vercel</li>
             <li>Git & GitHub</li>
-            <li>Sanity.io</li>
+            <li>Sanity.io / Firebase</li>
             <li>Vs Code</li>
           </ul>
         </div>

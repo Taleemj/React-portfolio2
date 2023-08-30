@@ -5,7 +5,7 @@ import { BsPhone } from "react-icons/bs";
 import AnimatedLetters from "../Animated/AnimatedLetters";
 import emailjs from "@emailjs/browser";
 // import GlobeComponent from "../Globe/Globe";
-import CustomGlobe from "../Globe/Globe";
+// import CustomGlobe from "../Globe/Globe";
 
 const Contact = () => {
   const nameref = useRef();
@@ -25,13 +25,13 @@ const Contact = () => {
         formref.current,
         "UMCV1YwfNUNEnBTqj"
       )
-      .then(alert("thank you, your message has been sent successfully"))
       .then(
         (nameref.current.value = ""),
         (emailref.current.value = ""),
         (messageref.current.value = ""),
         (subjectref.current.value = "")
       )
+      .then(alert("thank you, your message has been sent successfully"))
       .catch((err) => alert("something went wrong try again"));
   };
   return (
@@ -92,12 +92,12 @@ const Contact = () => {
           <button type="submit">Send Message</button>
         </form>
       </div>
-      <div
+      {/* <div
         id="map"
         className={`wow animate__animated animate__fadeInUp ${styles.mapcontainer}`}
       >
         <CustomGlobe />
-      </div>
+      </div> */}
     </div>
   );
 };
